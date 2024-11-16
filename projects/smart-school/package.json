@@ -1,0 +1,8 @@
+{
+  "name": "smart-school-workspace",
+  "version": "1.0.0",
+  "workspaces": [
+    "school-admin-panel-angular"
+  ],
+  "private": true
+}
