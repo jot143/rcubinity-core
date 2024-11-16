@@ -1,0 +1,29 @@
+{
+  "name": "root-workspace",
+  "version": "1.0.0",
+  "workspaces": [
+    "libraries/core-angular",
+    "libraries/core-js",
+    "libraries/core-vis-timeline",
+    "projects/*"
+  ],
+  "private": true,
+  "dependencies": {
+    "@angular-devkit/build-angular": "^18.2.12",
+    "joi": "^17.13.3",
+    "moment": "^2.30.1",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "^18.0.5",
+    "ng-packagr": "^18.2.1",
+    "tslint": "^6.1.3",
+    "typescript": "~5.4.2"
+  },
+  "scripts": {
+    "build:core-angular": "ng build core-angular",
+    "build:core-js": "ng build core-js",
+    "build:core-vis-timeline": "ng build core-vis-timeline"
+  }
+}

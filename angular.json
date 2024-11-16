@@ -1,0 +1,109 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "core-js": {
+      "projectType": "library",
+      "root": "libraries/core-js",
+      "sourceRoot": "libraries/core-js/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "libraries/core-js/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libraries/core-js/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "libraries/core-js/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "libraries/core-js/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    },
+    "core-angular": {
+      "projectType": "library",
+      "root": "libraries/core-angular",
+      "sourceRoot": "libraries/core-angular/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "libraries/core-angular/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libraries/core-angular/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "libraries/core-angular/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "libraries/core-angular/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    },
+    "core-vis-timeline": {
+      "projectType": "library",
+      "root": "libraries/core-vis-timeline",
+      "sourceRoot": "libraries/core-vis-timeline/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "libraries/core-vis-timeline/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libraries/core-vis-timeline/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "libraries/core-vis-timeline/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "libraries/core-vis-timeline/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "analytics": "fa3690a6-92f0-4ef3-9027-4158c23bda63"
+  }
+}

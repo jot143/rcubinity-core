@@ -1,0 +1,14 @@
+{
+  "name": "core-angular",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^18.1.0",
+    "@angular/core": "^18.1.0",
+    "@angular/animations": "^18.2.12",
+    "@angular/router": "^18.2.12",
+    "moment": "^2.30.1",
+    "tslib": "^2.3.0"
+  },
+  "dependencies": {},
+  "sideEffects": false
+}
