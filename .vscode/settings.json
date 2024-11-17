@@ -3,11 +3,18 @@
         "devkit",
         "doubletap",
         "Expreso",
+        "haptics",
+        "Harjot",
+        "ionicons",
         "keycharm",
+        "nestjs",
         "packagr",
         "panend",
         "panmove",
         "panstart",
-        "toastr"
+        "Randhawa",
+        "Rcubinity",
+        "toastr",
+        "typeorm"
     ]
 }
