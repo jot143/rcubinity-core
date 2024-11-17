@@ -1,8 +1,11 @@
 {
-  "name": "@jot143/core-vis-timeline",
+  "name": "core-vis-timeline",
   "version": "0.0.1",
   "author": "Harjot Singh Randhawa <jot.infinity8@gmail.com>",
   "homepage": "https://github.com/jot143",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "peerDependencies": {
     "@angular/common": "^18.1.0",
     "@angular/core": "^18.1.0",

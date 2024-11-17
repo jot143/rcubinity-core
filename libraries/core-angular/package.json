@@ -4,7 +4,7 @@
   "author": "Harjot Singh Randhawa <jot.infinity8@gmail.com>",
   "homepage": "https://github.com/jot143",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@jot143"
+    "registry": "https://npm.pkg.github.com/"
   },
   "peerDependencies": {
     "@angular/common": "^18.1.0",

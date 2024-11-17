@@ -26,9 +26,9 @@
     "build:core-angular": "ng build core-angular",
     "build:core-js": "ng build core-js",
     "build:core-vis-timeline": "ng build core-vis-timeline",
-    "publish:core-angular": "cd ./libraries/core-angular && ng build core-angular --configuration=production && npm publish",
-    "publish:core-js": "cd ./libraries/core-js  && ng build core-js --configuration=production && npm publish",
-    "publish:core-vis-timeline": "cd ./libraries/core-vis-timeline  && ng build core-vis-timeline --configuration=production && npm publish",
+    "publish:core-angular": "cd ./libraries/core-angular && ng build core-angular --configuration=production && cd ./dist && npm publish",
+    "publish:core-js": "cd ./libraries/core-js  && ng build core-js --configuration=production && cd ./dist && npm publish",
+    "publish:core-vis-timeline": "cd ./libraries/core-vis-timeline  && ng build core-vis-timeline --configuration=production && cd ./dist && npm publish",
     "publish:all": "npm run publish:core-angular && npm run publish:core-js && npm run publish:core-vis-timeline"
   }
 }
