@@ -41,3 +41,7 @@ export * from './lib/models/User';
 // components
 export * from './lib/components/base.component';
 
+// guard
+export * from './lib/guards/auth.guard';
+export * from './lib/guards/home.guard';
+

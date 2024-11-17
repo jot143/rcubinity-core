@@ -100,6 +100,7 @@ export class AuthService {
     user.set(value, true);
     this.stateService.user = user;
     this.stateService.hasLoggedIn = true;
+    this.isLoggedIn.next(true);
   }
 
 }
