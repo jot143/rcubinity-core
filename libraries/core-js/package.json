@@ -1,6 +1,8 @@
 {
-  "name": "core-js",
+  "name": "@jot143/core-js",
   "version": "0.0.1",
+  "author": "Harjot Singh Randhawa <jot.infinity8@gmail.com>",
+  "homepage": "https://github.com/jot143",
   "peerDependencies": {
   },
   "dependencies": {

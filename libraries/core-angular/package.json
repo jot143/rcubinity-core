@@ -1,19 +1,17 @@
 {
-  "name": "@harjot/core-angular",
+  "name": "@jot143/core-angular",
   "version": "0.0.1",
   "author": "Harjot Singh Randhawa <jot.infinity8@gmail.com>",
   "homepage": "https://github.com/jot143",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/jot143"
-  },
   "peerDependencies": {
     "@angular/common": "^18.1.0",
     "@angular/core": "^18.1.0",
     "@angular/animations": "^18.2.12",
     "@angular/router": "^18.2.12",
-    "moment": "^2.30.1",
+    "moment": "^2.30.1"
+  },
+  "dependencies": {
     "tslib": "^2.3.0"
   },
-  "dependencies": {},
   "sideEffects": false
 }
