@@ -91,12 +91,12 @@ export class Model<T extends Model<T>> {
     }
   }
 
-  static getClassName() {
-    const className = this.toString()
-      .split("(" || /s+/)[0]
-      .split(" " || /s+/)[1];
-    return className;
-  }
+  // static getClassName() {
+  //   const className = this.toString()
+  //     .split("(" || /s+/)[0]
+  //     .split(" " || /s+/)[1];
+  //   return className;
+  // }
 
   static async createFromArray<U extends Model<U>>(DATAs: Array<any> = []): Promise<U[]> {
     const objs = [];
