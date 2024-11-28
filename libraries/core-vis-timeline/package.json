@@ -7,8 +7,8 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "peerDependencies": {
-    "@angular/common": "^18.1.0",
-    "@angular/core": "^18.1.0",
+    "@angular/common": "^19.0.1",
+    "@angular/core": "^19.0.1",
     "component-emitter": "^2.0.0",
     "tslib": "^2.3.0",
     "keycharm": "^0.4.0",
